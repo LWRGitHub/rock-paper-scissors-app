@@ -14,4 +14,4 @@
 
 ## Gameplay
 
-![gameplay](gameplay.gif)
+![Moving rock paper scissors iPhone app gameplay in a gif image.](gameplay.gif)
