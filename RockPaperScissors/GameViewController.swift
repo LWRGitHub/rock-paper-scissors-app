@@ -1,10 +1,7 @@
 //
 //  GameViewController.swift
 //  RockPaperScissors
-//
-//  Created by Adriana González Martínez on 11/25/19.
-//  Copyright © 2019 Adriana González Martínez. All rights reserved.
-//
+
 
 import UIKit
 
@@ -21,12 +18,19 @@ class GameViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as? ResultsViewController
         switch segue.identifier {
-        case "rockSelected":
+        case "rock":
             vc?.userSelection = GameOption.rock
+        case "paper":
+            vc?.userSelection = GameOption.paper
+        case "scissors":
+            vc?.userSelection = GameOption.paper
         default:
             break
         }
     }
     
+    @IBAction func unwindToGameView(segue:UIStoryboardSegue){
+        
+    }
     
 }
