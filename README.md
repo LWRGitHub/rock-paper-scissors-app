@@ -8,9 +8,9 @@
 
 
 ## Tools/Languages
-- swift
+- Swift
 - Xcode
-- UI Kit
+- UIKit
 
 ## Gameplay
 
